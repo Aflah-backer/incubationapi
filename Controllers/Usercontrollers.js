@@ -167,3 +167,11 @@ module.exports.viewApplication = async (req, res, next) => {
     console.log(err);
   }
 };
+
+module.exports.test = async (req,res) =>{
+  try {
+    res.send("ok")
+  } catch (err) {
+    console.log(err);
+  }
+}
